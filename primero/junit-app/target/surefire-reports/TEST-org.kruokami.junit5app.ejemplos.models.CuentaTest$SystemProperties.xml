@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.kruokami.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.008" tests="6" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/test-classes:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/classes:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0-M1/junit-jupiter-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0-M1/junit-jupiter-api-5.10.0-M1.jar:/home/marcos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0-M1/junit-platform-commons-1.10.0-M1.jar:/home/marcos/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0-M1/junit-jupiter-params-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0-M1/junit-jupiter-engine-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0-M1/junit-platform-engine-1.10.0-M1.jar:/home/marcos/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Guatemala"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/surefire/surefirebooter-20231030145848384_3.jar /home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/surefire 2023-10-30T14-58-48_343-jvmRun1 surefire-20231030145848384_1tmp surefire_0-20231030145848384_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/test-classes:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/classes:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0-M1/junit-jupiter-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0-M1/junit-jupiter-api-5.10.0-M1.jar:/home/marcos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0-M1/junit-platform-commons-1.10.0-M1.jar:/home/marcos/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0-M1/junit-jupiter-params-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0-M1/junit-jupiter-engine-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0-M1/junit-platform-engine-1.10.0-M1.jar:/home/marcos/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/marcos"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/surefire/surefirebooter-20231030145848384_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="user.name" value="marcos"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.6-arch2-1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/marcos/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="systemJavaVersion" classname="org.kruokami.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.0">
+    <system-out><![CDATA[Iniciando el metodo.
+Coincide la version
+Finalizando metodo.
+]]></system-out>
+  </testcase>
+  <testcase name="getProperties" classname="org.kruokami.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.001">
+    <system-out><![CDATA[Iniciando el metodo.
+java.specification.version:17
+sun.jnu.encoding:UTF-8
+java.class.path:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/test-classes:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/classes:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0-M1/junit-jupiter-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0-M1/junit-jupiter-api-5.10.0-M1.jar:/home/marcos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0-M1/junit-platform-commons-1.10.0-M1.jar:/home/marcos/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0-M1/junit-jupiter-params-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0-M1/junit-jupiter-engine-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0-M1/junit-platform-engine-1.10.0-M1.jar:/home/marcos/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:
+java.vm.vendor:Oracle Corporation
+sun.arch.data.model:64
+java.vendor.url:https://openjdk.java.net/
+user.timezone:America/Guatemala
+java.vm.specification.version:17
+os.name:Linux
+sun.java.launcher:SUN_STANDARD
+user.country:US
+sun.boot.library.path:/usr/lib/jvm/java-17-openjdk/lib
+sun.java.command:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/surefire/surefirebooter-20231030145848384_3.jar /home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/surefire 2023-10-30T14-58-48_343-jvmRun1 surefire-20231030145848384_1tmp surefire_0-20231030145848384_2tmp
+jdk.debug:release
+surefire.test.class.path:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/test-classes:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/classes:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0-M1/junit-jupiter-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0-M1/junit-jupiter-api-5.10.0-M1.jar:/home/marcos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0-M1/junit-platform-commons-1.10.0-M1.jar:/home/marcos/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0-M1/junit-jupiter-params-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0-M1/junit-jupiter-engine-5.10.0-M1.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0-M1/junit-platform-engine-1.10.0-M1.jar:/home/marcos/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:
+sun.cpu.endian:little
+user.home:/home/marcos
+user.language:en
+java.specification.vendor:Oracle Corporation
+java.version.date:2023-08-24
+java.home:/usr/lib/jvm/java-17-openjdk
+file.separator:/
+basedir:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app
+java.vm.compressedOopsMode:Zero based
+line.separator:
+
+java.specification.name:Java Platform API Specification
+java.vm.specification.vendor:Oracle Corporation
+surefire.real.class.path:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app/target/surefire/surefirebooter-20231030145848384_3.jar
+sun.management.compiler:HotSpot 64-Bit Tiered Compilers
+java.runtime.version:17.0.8.1+1
+user.name:marcos
+path.separator::
+os.version:6.5.6-arch2-1
+java.runtime.name:OpenJDK Runtime Environment
+file.encoding:UTF-8
+java.vm.name:OpenJDK 64-Bit Server VM
+localRepository:/home/marcos/.m2/repository
+java.vendor.url.bug:https://bugreport.java.com/bugreport/
+java.io.tmpdir:/tmp
+java.version:17.0.8.1
+user.dir:/home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app
+os.arch:amd64
+java.vm.specification.name:Java Virtual Machine Specification
+native.encoding:UTF-8
+java.library.path:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+java.vm.info:mixed mode
+java.vendor:N/A
+java.vm.version:17.0.8.1+1
+sun.io.unicode.encoding:UnicodeLittle
+java.class.version:61.0
+Finalizando metodo.
+]]></system-out>
+  </testcase>
+  <testcase name="testByEnv" classname="org.kruokami.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.001">
+    <system-out><![CDATA[Iniciando el metodo.
+Test env
+Finalizando metodo.
+]]></system-out>
+  </testcase>
+  <testcase name="testSaldoCuentaDev" classname="org.kruokami.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.0">
+    <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:66)
+	at org.kruokami.junit5app.ejemplos.models.CuentaTest$SystemProperties.testSaldoCuentaDev(CuentaTest.java:311)
+]]></skipped>
+    <system-out><![CDATA[Iniciando el metodo.
+Finalizando metodo.
+]]></system-out>
+  </testcase>
+  <testcase name="testSaldoCuentaDevParcial" classname="org.kruokami.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.001">
+    <system-out><![CDATA[Iniciando el metodo.
+Finalizando metodo.
+]]></system-out>
+  </testcase>
+  <testcase name="imprimirVariablesAmbiente" classname="org.kruokami.junit5app.ejemplos.models.CuentaTest$SystemProperties" time="0.001">
+    <system-out><![CDATA[Iniciando el metodo.
+PATH = /home/marcos/.nvm/versions/node/v14.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/android-sdk/emulator:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+ZDOTDIR = /home/marcos
+GIT_USERNAME = MarcosJSierra
+MOTD_SHOWN = pam
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+GIT_REPO = http://10.160.255.18/banrural-devops/capa-media/config-file.git
+ANDROID_HOME = /opt/android-sdk
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+VSCODE_INJECTION = 1
+COLORTERM = truecolor
+CAPA_MEDIA_LOGS_DIR = /home/marcos/Documents/BDG/Banrural/logs
+P9K_TTY = old
+VSCODE_GIT_ASKPASS_NODE = /usr/lib/electron25/electron
+MANAGERPID = 1200
+PROFILEHOME = 
+PWD = /home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app
+TERM_PROGRAM_VERSION = 1.83.0
+LANGUAGE = 
+WINDOWID = 176160778
+NVM_CD_FLAGS = -q
+KDE_SESSION_VERSION = 5
+CHROME_DESKTOP = code-oss.desktop
+PAGER = less
+ZSH = /home/marcos/.oh-my-zsh
+P9K_SSH = 0
+GTK_MODULES = canberra-gtk-module
+EXAMPLE_DB_PASSWORD = 201330
+SHLVL = 2
+_P9K_SSH_TTY = /dev/pts/12
+MEMORY_PRESSURE_WATCH = /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/background.slice/plasma-kglobalaccel.service/memory.pressure
+TERM = xterm-256color
+KDE_SESSION_UID = 1000
+XDG_CONFIG_DIRS = /home/marcos/.config/kdedefaults:/etc/xdg
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+XDG_SESSION_ID = 2
+_P9K_TTY = /dev/pts/12
+SHELL_SESSION_ID = 341fe7e50bb84ffa95c41fed56510dea
+NVM_INC = /home/marcos/.nvm/versions/node/v14.15.0/include/node
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/marcos/.gtkrc:/home/marcos/.config/gtkrc
+_ = /usr/lib/jvm/java-17-openjdk/bin/java
+XDG_SESSION_CLASS = user
+XCURSOR_SIZE = 24
+TERM_PROGRAM = vscode
+DESKTOP_SESSION = plasma
+MAVEN_PROJECTBASEDIR = /home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/marcos/.gtkrc-2.0:/home/marcos/.config/gtkrc-2.0
+EXAMPLE_DB_USER = marcos
+NVM_BIN = /home/marcos/.nvm/versions/node/v14.15.0/bin
+INVOCATION_ID = 78562eb703654e828b568c274c6b63bc
+XAUTHORITY = /tmp/xauth_NQPdzy
+XDG_DATA_DIRS = /home/marcos/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VSCODE_GIT_IPC_HANDLE = /run/user/1000/vscode-git-5f300f0d84.sock
+GIT_TOKEN = glpat-GK8CPJraWPS_Jvg_NGM4
+XDG_CURRENT_DESKTOP = KDE
+JOURNAL_STREAM = 8:18792
+MAIL = /var/spool/mail/marcos
+LOGNAME = marcos
+KONSOLE_DBUS_SERVICE = :1.1047
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+GIT_ASKPASS = /usr/lib/code/extensions/git/dist/askpass.sh
+XCURSOR_THEME = Dracula-cursors
+SHELL = /usr/bin/zsh
+KONSOLE_DBUS_SESSION = /Sessions/1
+OLDPWD = /home/marcos/Documents/Cursos/udemy/junitMokito/JunitMockito2023/primero/junit-app
+KDE_FULL_SESSION = true
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session2
+DEBUGINFOD_URLS = https://debuginfod.archlinux.org
+LESS = -R
+COLORFGBG = 15;0
+SYSTEMD_EXEC_PID = 1341
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+XDG_SESSION_DESKTOP = KDE
+KDE_APPLICATIONS_AS_SCOPE = 1
+CONFIG_SERVER_HOST = http://localhost
+MEMORY_PRESSURE_WRITE = c29tZSAyMDAwMDAgMjAwMDAwMAA=
+KONSOLE_DBUS_WINDOW = /Windows/1
+LANG = en_US.UTF-8
+XDG_SESSION_TYPE = x11
+VSCODE_GIT_ASKPASS_MAIN = /usr/lib/code/extensions/git/dist/askpass-main.js
+DISPLAY = :0
+KONSOLE_VERSION = 230801
+VSCODE_GIT_ASKPASS_EXTRA_ARGS = 
+MAVEN_CMD_LINE_ARGS =  surefire:test
+NVM_DIR = /home/marcos/.nvm
+GDK_BACKEND = x11
+TEMPORAL_LOG_EXAMPLE = /home/marcos/Documents/BDG/Banrural/POC/0005_logs/logs
+LSCOLORS = Gxfxcxdxbxegedabagacad
+CONFIG_SERVER_PORT = 8182
+USER_ZDOTDIR = /home/marcos
+USER = marcos
+VSCODE_NONCE = 8279e170-9821-4a4d-9ad9-fc58bc3c97dd
+XDG_SEAT = seat0
+NO_AT_BRIDGE = 1
+XDG_RUNTIME_DIR = /run/user/1000
+XDG_VTNR = 2
+HOME = /home/marcos
+Finalizando metodo.
+]]></system-out>
+  </testcase>
+</testsuite>
